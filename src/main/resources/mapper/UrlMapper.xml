@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kakao.pay.mapper.UrlMapper">
+  
+  	<select id="getShortendUrlCnt" resultType="UrlVO">
+		select		count(id)
+		from		T_URL
+		where		ORIGIN_URL = #{originUrl}
+  	</select>
+  	
+  	<select id="getLastNo" resultType="int">
+  		select		ifnull(max(ID), 0)
+  		from		T_URL
+  	</select>
+  	
+  	<insert id="insertShortendUrl">
+  		insert into		T_URL
+  		(
+  			SHORTENED_URL
+  			,ORIGIN_URL
+  			,REG_DT
+  		) values (
+  			#{shortenedUrl}
+  			,#{originUrl}
+  			,now()
+  		)
+  	</insert>
+  	
+  	<select id="getCheckHasShortenedUrl" resultType="int">
+  		select		ifnull(count(id), 0)
+		from		T_URL
+		where		ORIGIN_URL = #{originUrl}
+  	</select>
+  	
+  	<select id="getInsertedShortendUrl" resultType="String">
+  		select		SHORTENED_URL
+		from		T_URL
+		where		ORIGIN_URL = #{originUrl}
+  	</select>
+  	
+  	<select id="getShortendUrlInfo" resultType="UrlVO">
+  		select		SHORTENED_URL
+  					,ORIGIN_URL
+		from		T_URL
+		where		SHORTENED_URL = #{shortenedUrl}
+  	</select>
+  	
+</mapper>

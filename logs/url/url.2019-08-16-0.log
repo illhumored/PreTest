@@ -1,0 +1,58 @@
+20190816 00:14:11.042 [http-nio-80-exec-6] INFO c.z.h.HikariDataSource - HikariPool-7 - Starting... 
+20190816 00:14:15.025 [http-nio-80-exec-6] INFO c.z.h.HikariDataSource - HikariPool-7 - Start completed. 
+20190816 00:32:18.249 [Thread-54] INFO c.z.h.HikariDataSource - HikariPool-7 - Shutdown initiated... 
+20190816 00:32:18.254 [Thread-54] INFO c.z.h.HikariDataSource - HikariPool-7 - Shutdown completed. 
+20190816 00:32:19.023 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:32:19.023 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:32:20.429 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 1.484 seconds (JVM running for 3970.494) 
+20190816 00:32:24.895 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:32:24.895 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:32:25.989 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 1.19 seconds (JVM running for 3976.044) 
+20190816 00:32:56.130 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:32:56.130 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:32:57.021 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.954 seconds (JVM running for 4007.076) 
+20190816 00:34:42.474 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:34:42.474 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:34:43.350 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.922 seconds (JVM running for 4113.4) 
+20190816 00:35:20.635 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:35:20.635 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:35:21.510 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.923 seconds (JVM running for 4151.571) 
+20190816 00:36:52.172 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:36:52.172 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:36:53.250 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 1.148 seconds (JVM running for 4243.302) 
+20190816 00:38:09.728 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:38:09.728 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:38:10.588 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.904 seconds (JVM running for 4320.639) 
+20190816 00:39:10.848 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:39:10.848 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:39:11.708 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.92 seconds (JVM running for 4381.766) 
+20190816 00:40:39.144 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:40:39.144 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:40:39.957 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.87 seconds (JVM running for 4470.014) 
+20190816 00:42:39.723 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:42:39.723 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:42:40.551 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.875 seconds (JVM running for 4590.602) 
+20190816 00:46:41.663 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:46:41.663 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:46:42.491 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.878 seconds (JVM running for 4832.543) 
+20190816 00:48:18.240 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:48:18.240 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:48:19.037 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.839 seconds (JVM running for 4929.097) 
+20190816 00:57:12.691 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:57:12.691 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:57:13.546 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.892 seconds (JVM running for 5463.596) 
+20190816 00:57:17.603 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 00:57:17.603 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 00:57:18.431 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.882 seconds (JVM running for 5468.487) 
+20190816 01:01:39.525 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 01:01:39.525 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 01:01:40.338 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.862 seconds (JVM running for 5730.397) 
+20190816 01:04:51.296 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 01:04:51.296 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 01:04:52.187 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.947 seconds (JVM running for 5922.244) 
+20190816 01:05:57.374 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 01:05:57.374 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 01:05:58.171 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.846 seconds (JVM running for 5988.229) 
+20190816 01:06:07.408 [restartedMain] INFO c.k.p.PreTestApplication - Starting PreTestApplication on DESKTOP-ENKA0AL with PID 3468 (C:\Workspace\PreTest\bin\main started by HS-HOME in C:\Workspace\PreTest) 
+20190816 01:06:07.408 [restartedMain] INFO c.k.p.PreTestApplication - No active profile set, falling back to default profiles: default 
+20190816 01:06:08.299 [restartedMain] INFO c.k.p.PreTestApplication - Started PreTestApplication in 0.937 seconds (JVM running for 5998.349) 
