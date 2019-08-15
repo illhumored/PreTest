@@ -19,3 +19,6 @@ KakaoPay PreTest Project
 3. 프로젝트 빌드 및 실행방법
 >- Gradle 빌드 후 http://localhost 로 실행합니다. (포트는 80으로 설정되어 있습니다.)
 >- AWS RDS 를 연동하였기 때문에 별도의 DB 셋팅은 필요하지 않습니다. (다만, 무료 인스턴스라 DB 조회에 시간이 다소 걸립니다.)
+
+4. 실행화면
+![main](https://user-images.githubusercontent.com/25357525/63111665-25802e80-bfc9-11e9-9bd1-4ee179031e2f.png)
