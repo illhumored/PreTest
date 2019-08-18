@@ -31,10 +31,11 @@ public class Base62Converter {
             boolean isFianl = false;
             
             // 8자리 base62 변환 
-            for(int i=SHORTENING_KEY_SIZE; i>=1; i--) {
+            for(int i=SHORTENING_KEY_SIZE; i>=0; i--) {
                 multiplier = (long) (inputStr / Math.pow(baseSize, i));
                 
                 if(multiplier > 0 && inputStr >= baseSize) {
+
                     resultStr += baseElements[(int) multiplier];
                     isFianl = true;
                 } 
@@ -53,6 +54,7 @@ public class Base62Converter {
             }
             
         }
+        System.out.println(">>> resultStr: " + resultStr); 
         return resultStr;
     }
 }
