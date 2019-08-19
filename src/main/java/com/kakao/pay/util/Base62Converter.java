@@ -2,10 +2,7 @@ package com.kakao.pay.util;
 
 public class Base62Converter {
 	
-	// http://www.vikasing.com/2010/11/simple-url-shortening-algorithm-in-java.html?m=1
-	
-	
-    private final int SHORTENING_KEY_SIZE=8;
+    private final int SHORTENING_KEY_SIZE=7;
     
     public String convertTo62Base(long inputStr) {
     	
