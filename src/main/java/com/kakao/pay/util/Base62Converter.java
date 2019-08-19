@@ -51,7 +51,6 @@ public class Base62Converter {
             }
             
         }
-        System.out.println(">>> resultStr: " + resultStr); 
         return resultStr;
     }
 }
