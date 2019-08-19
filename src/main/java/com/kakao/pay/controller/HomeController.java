@@ -70,7 +70,6 @@ public class HomeController {
 			result = urlMapper.insertShortendUrl(urlVO);
 			
 			if(result == 1)
-				//entity = new ResponseEntity<String>(request.getRequestURL().toString().replace(request.getRequestURI(), "") + "/" + shortedUrl, HttpStatus.OK);
 				entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.OK);
 			else 
 				entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.BAD_REQUEST);
@@ -89,7 +88,6 @@ public class HomeController {
 				urlVO.setResultMsg("SUCCES");
 				urlVO.setShortenedUrl(shortedUrl);
 				
-				//entity = new ResponseEntity<String>(request.getRequestURL().toString().replace(request.getRequestURI(), "") + "/" + shortedUrl, HttpStatus.OK);
 				entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.OK);
 				
 			} 
@@ -106,14 +104,12 @@ public class HomeController {
 					urlVO.setResultMsg("SUCCES");
 					urlVO.setShortenedUrl(shortedUrl);
 					
-					//entity = new ResponseEntity<String>(request.getRequestURL().toString().replace(request.getRequestURI(), "") + "/" + shortedUrl, HttpStatus.OK);
 					entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.OK);
 				}
 				else {
 					
 					urlVO.setResultMsg("FAILE");
 					
-					//entity = new ResponseEntity<String>("등록 실패", HttpStatus.BAD_REQUEST);
 					entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.BAD_REQUEST);
 				}
 					
@@ -146,7 +142,6 @@ public class HomeController {
 			
 			urlVO.setResultMsg("SUCCES");
 			
-			//entity = new ResponseEntity<String>(request.getRequestURL().toString().replace(request.getRequestURI(), "") + "/" + shortedUrl, HttpStatus.OK);
 			entity = new ResponseEntity<UrlVO>(urlVO, HttpStatus.OK);
 		}
 		else {
@@ -154,7 +149,6 @@ public class HomeController {
 			UrlVO tmpVO = new UrlVO();
 			tmpVO.setResultMsg("EMPTY");
 			
-			//entity = new ResponseEntity<String>("등록 실패", HttpStatus.BAD_REQUEST);
 			entity = new ResponseEntity<UrlVO>(tmpVO, HttpStatus.OK);
 		}
 		
